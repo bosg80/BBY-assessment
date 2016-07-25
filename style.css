@@ -1,0 +1,469 @@
+/*BBY Assessment by Brendon George*/
+body {
+	font-family: 'Open Sans', sans-serif;
+	background:#e0e5e9;
+    color: #4b5c66;
+}
+
+/* `Container
+----------------------------------------------------------------------------------------------------*/
+.container {
+    width: 1236px;
+    height: 3875px;
+    margin-top:0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* `Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+  display: inline;
+  float: left;
+  margin-left: 8px;
+  margin-right: 8px;
+  position:relative;
+}
+
+.align-right{
+	float:right !important;	
+}
+
+
+/* `Grid >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container .grid_1 {
+  width: 87px;
+}
+
+.container .grid_2 {
+  width: 190px;
+}
+
+.container .grid_3 {
+  width: 293px;
+}
+
+.container .grid_4 {
+  width: 396px;
+}
+
+.container .grid_5 {
+  width: 499px;
+}
+
+.container .grid_6 {
+  width: 602px;
+}
+
+.container .grid_7 {
+	width: 705px;
+}
+
+.container .grid_8 {
+	width: 808px;
+}
+
+.container .grid_9 {
+  width: 911px;
+}
+
+.container .grid_10 {
+  width: 1014px;
+}
+
+.container .grid_11 {
+  width: 1117px;
+}
+
+.container .grid_12 {
+  width: 1220px;
+}
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.no-margin{
+	margin-left:0 !important;
+	margin-right:0 !important;
+}
+
+/* `Top Section Elements
+----------------------------------------------------------------------------------------------------*/
+.product-brand {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90px;
+    font-weight: bold;
+    color: #4b5c66;
+    margin-top: 123px;
+}
+.product-model{
+	font-size:40px;
+	color:#4b5c66;
+	font-weight: 100;
+	margin-top: -10px;
+	clear: both;
+	margin-bottom: 35px;
+}
+.product-price{
+	font-size:40px;
+	color:#4b5c66;
+	font-weight: 100;
+	display: inline-block;
+}
+.product-quantity {
+    width: 50px;
+    float: left;
+    margin-top: 6px;
+    margin-left: 6px;
+    height: 26px;
+    padding: 3px 10px 16px 20px;
+    font-size: 24px;
+}
+.drop-down {
+	position:relative;
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 5px;
+	border: none;
+	color: #4b5c66;
+	background:#fff;
+}
+.drop-down.add-to-cart {
+    margin-top: 19px;
+    height: 38px;
+    margin-bottom: 57px;
+    padding: 18px 10px 2px 27px;
+    font-size: 18px;
+    width: 256px;
+}
+.drop-down li{
+	display:none;	
+}
+.drop-down:after{
+	content:"";
+	position:absolute;	
+	width:13px;
+	height:14px;
+	background:url(img/dropdown-arrow.png);
+	background-repeat:no-repeat;
+	margin:auto;
+	top:0;
+	bottom:0;
+	right:20px;
+}
+.row{
+	width:100%;
+	display:block;
+	clear:both;
+}
+.product-detail {
+    font-size: 18px;
+    line-height: 27px;
+}
+img.star {
+    display: inline-block;
+    padding-right: 6px;
+}
+.protection-plan {
+    background: white;
+    margin-top: 53px;
+    padding: 30px;
+    font-size:14px;
+}
+.protection-plan .label {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 14px;
+}
+.protection-price {
+    color: #0087f2;
+	margin-left:18px;
+}
+ul.checkbox li input {
+  margin: 3px 17px 0px 0px;
+  border: solid 3px #dfe4e8;
+} 
+ul.checkbox {
+    margin-top: 7px;
+}
+.checkbox li {
+    font-size: 14px;
+    padding: 4px 0px;
+}
+
+
+/* `More Details Button
+----------------------------------------------------------------------------------------------------*/
+.more-details-button{
+	width: 105px;
+	height: 105px;
+	margin: auto;
+	background: #fff;
+	border-radius: 60px;
+	font-size:14px;
+	text-align:center;
+}
+.more-details-button img {
+    padding-top: 44px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.more-details-button p {
+    margin: 5px 0px 0px 0px;
+    padding: 0;
+}
+
+
+/* `Section Header Elements
+----------------------------------------------------------------------------------------------------*/
+.section-header{
+	height: 396px;
+	color: #fff;
+	font-size: 60px;
+	position: relative;
+}
+.section-header h1 {
+    margin-left: 30px;
+    bottom: 20px;
+    position: absolute;
+    font-weight: 100;
+    line-height: 1.05;
+}
+.section-header span{
+	font-weight:700;	
+}
+
+
+/* `Top Feature Section Elements
+----------------------------------------------------------------------------------------------------*/
+.top-feature div.section-header {
+    background: #ea167a;
+}
+.top-feature-wrapper{
+    background: #fff;
+    height: 535px;
+    margin-left: -16px;
+    margin-top: 92px;
+}
+.top-feature-details {
+    padding: 30px 0px 0px 20px;
+}
+.top-feature-details p, .detailed-specs-details p {
+    margin-bottom: 27px;
+    line-height: 27px;
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+/* `Detailed Specs Section Elements
+----------------------------------------------------------------------------------------------------*/
+.detailed-specs {
+    background: #fff;
+}
+.detailed-specs-section .more-details {
+    height: 300px;
+}
+.detailed-specs-section .more-details-button {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0px;
+}
+.detailed-specs-details h3{
+	font-size:32px;
+	margin-bottom: 25px;
+}
+.detailed-specs-details h4{
+	font-size: 30px;
+	font-weight:700;
+	line-height:27px;
+	margin-bottom: 33px;
+}
+div.detailed-specs.section-header{
+	background:#fed200;
+	z-index:1;
+	margin-top: -60px;
+}
+.detailed-specs-img {
+    top: -200px;
+    right: -30px;
+    position: absolute;
+	z-index:10;
+}
+.detailed-specs-details.list-1 {
+    padding: 20px 0px 0px 30px;
+    margin-bottom: 32px;
+}
+.detailed-specs-details.list-2 {
+    padding: 27px 0px 0px 8px;
+}
+.detailed-specs-details span {
+    margin-top: 26px;
+    line-height: 27px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.detailed-specs-details button{
+    background: #fed200;
+}
+img.detailed-specs {
+    margin-top: 15px;
+    margin-left: -5px;
+}
+.category {
+    margin-bottom: 50px;
+}
+
+
+/* `Button Elements
+----------------------------------------------------------------------------------------------------*/
+button {
+    height: 60px;
+    width: 207px;
+    border: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    border-radius: 5px;
+    position: relative;
+}
+button::after {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 20px;
+    background: url(img/button-arrow.png);
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    margin-left: 5px;
+    background-repeat: no-repeat;
+}
+
+
+/* `Reviews Section Elements
+----------------------------------------------------------------------------------------------------*/
+.reviews .more-details {
+    height: 396px;
+    margin-left: -8px;
+}
+.reviews .more-details-button {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.row.reviews {
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+.reviews .wrapper {
+    padding: 25px 0px 0px 26px;
+}
+.reviews .section-header {
+    background: #6fce3c;
+}
+.reviews h4{
+    font-size: 30px;
+    margin-top: 5px;	
+}
+.reviews h5 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 3px;
+}
+
+
+/* `Comments Elements
+----------------------------------------------------------------------------------------------------*/
+.comments {
+    margin-bottom: 24px;
+    background: #fff;
+    margin-left: -9px;
+    padding-right: 17px;
+}.comments p {
+    font-size: 18px;
+    margin-top: 30px;
+    line-height: 27px;
+}
+
+
+/* `Score Elements
+----------------------------------------------------------------------------------------------------*/
+.score p {
+    margin-top: 21px;
+    font-size: 22px;
+}
+.score button {
+    background: #6fce3c;
+    margin-top: 28px;
+}
+.score h1 {
+    font-size: 120px;
+    margin-top: -14px;
+}
+.score .wrapper{
+    margin-left: 26px;
+}
+
+
+/* `Rating Elements
+----------------------------------------------------------------------------------------------------*/
+ul.rating {
+    height: 36px;
+}
+.rating li{
+    display: inline-block;
+    width: 38.5px;
+    margin: 0;
+    margin-left: 2px;
+    margin-right: -1px;
+    margin-top: 24px;
+    width: 42.72px;
+    height: 4px;
+}
+.rating .wrapper {
+    margin-left: 36px;
+    margin-top: 58px;
+}
+.rating .label{
+	clear:both;
+	font-size: 16px;
+	display: block;
+	font-weight: 700;
+}
+.rating .green{
+    background: #6fce3c;
+}
+.rating .grey{
+    background: #e0e5e9;
+}	
